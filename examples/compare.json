@@ -1,0 +1,23 @@
+[
+  {
+    "label": "vllm-A100",
+    "base_url": "http://gpu-a100:8000",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "concurrency": 8,
+    "requests": 200
+  },
+  {
+    "label": "vllm-H100",
+    "base_url": "http://gpu-h100:8000",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "concurrency": 8,
+    "requests": 200
+  },
+  {
+    "label": "tgi-A100",
+    "base_url": "http://tgi-a100:8080",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "concurrency": 8,
+    "requests": 200
+  }
+]
