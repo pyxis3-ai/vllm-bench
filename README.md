@@ -91,3 +91,7 @@ The benchmark uses `stream: true` because that's the only way to measure TTFT ho
 ## License
 
 MIT.
+
+## Maintenance
+
+This repository is maintained with small, reviewable updates. Supporting documentation lives in `docs/`, example inputs live in `examples/`, and lightweight validation notes live in `tests/smoke/`.
