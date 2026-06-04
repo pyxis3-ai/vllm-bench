@@ -4,7 +4,7 @@ Throughput and latency benchmark for OpenAI-compatible LLM inference endpoints �
 
 Streams `stream: true` responses, measures **TTFT** (time-to-first-token) and **TPOT** (time-per-output-token) per request, and reports per-endpoint percentiles plus aggregate throughput. Single binary's worth of dependencies (`httpx`, `rich`).
 
-Built for **Pyxis** — comparing model-serving runtimes across heterogeneous GPU fleets.
+Open-source AI-/LLM-infrastructure tooling published by **[PYXIS3](https://pyxis3.ai)** — for comparing model-serving runtimes across heterogeneous GPU fleets.
 
 ## Install
 
